@@ -1,0 +1,49 @@
+Created by Testinium on 1.02.2022
+
+This is a concept file with following syntax for each concept.
+
+# Alışverişe Başla
+* "3" saniye kadar bekle
+* Açılış sayfasını kontrol et
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+* "3" saniye kadar bekle
+* Alışveriş sayfasını kontrol etme
+* id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+* "3" saniye kadar bekle
+* Kategori sayfası kontrol etme
+
+# Kadın kategorisinde pantolon sayfasına git
+* "//android.widget.RelativeLayout[@index=1]" xpath'li elemente tıkla
+* "3" saniye kadar bekle
+* "//android.widget.TextView[@text='Pantolon']" xpath'li elemente tıkla
+* "3" saniye kadar bekle
+
+# İki defa scroll et ve rastgele bir ürün seç
+* Sayfadan aşağı scroll et
+* "3" saniye kadar bekle
+* Sayfadan aşağı scroll et
+* "3" saniye kadar bekle
+* "//android.widget.ImageView[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']" Sayfada rastgele bir ürüne tıkla
+* "3" saniye kadar bekle
+* Product sayfasını kontrol etme
+* id "com.ozdilek.ozdilekteyim:id/imgFav" li elemente tıkla
+
+# Login sayfasında işlemleri yap
+* Login page kontrol etme
+* "3" saniye kadar bekle
+* id "com.ozdilek.ozdilekteyim:id/etEposta" li elementi bul ve "text" değerini yaz
+* "3" saniye kadar bekle
+* id "com.ozdilek.ozdilekteyim:id/etPassword" li elementi bul ve "sifre" değerini yaz
+* "3" saniye kadar bekle
+
+# İki defa geri git
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "3" saniye kadar bekle
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "3" saniye kadar bekle
+
+# Rastgele bir ürün seç ve sepete ekle
+* "//android.widget.ImageView[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']" Sayfada rastgele bir ürüne tıkla
+* "3" saniye kadar bekle
+* Sepete ekle
+* "3" saniye kadar bekle
